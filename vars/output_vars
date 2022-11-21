@@ -1,0 +1,11 @@
+vpcid: "{{vpcout.vpc.id}}"
+pubsub1id: subnet-053ee9aa97568c68c
+pubsub2id: 	subnet-04e54e3b3634f5f37
+pubsub3id: subnet-0569cb89c2b87b1b7
+privsub1id: subnet-013c383637cc3ecd2
+privsub2id: subnet-02094e6fc176bed84
+privsub3id: subnet-085db18467a8f984c
+igwid: igw-08ebac67ad84f6c48
+pubRTid: rtb-0bc3ec139dab90ffe
+NATGWid: nat-029481d1be0606d0b
+privRTid: rtb-012156e5cc2262cb1
