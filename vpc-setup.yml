@@ -77,11 +77,11 @@
         region: "{{ region }}"
         az: "{{ zone1 }}"
         state: "{{state}}"
-        cidr: "{{ PriSub1Cidr }}"
+        cidr: "{{ PrivSub1Cidr }}"
         map_public: yes
         resource_tags:
           Name: vprofile-privsub1
-      register: prisub1_out
+      register: privsub1_out
 
 
     - name: create Private Subnet 2 in Zone2
@@ -90,11 +90,11 @@
         region: "{{ region }}"
         az: "{{ zone2 }}"
         state: "{{state}}"
-        cidr: "{{ PriSub2Cidr }}"
+        cidr: "{{ PrivSub2Cidr }}"
         map_public: yes
         resource_tags:
           Name: vprofile-privsub2
-      register: prisub2_out
+      register: privsub2_out
 
 
     - name: create Private Subnet 3 in Zone3
@@ -103,11 +103,11 @@
         region: "{{ region }}"
         az: "{{ zone3 }}"
         state: "{{state}}"
-        cidr: "{{ PriSub3Cidr }}"
+        cidr: "{{ PrivSub3Cidr }}"
         map_public: yes
         resource_tags:
           Name: vprofile-privsub3
-      register: prisub3_out
+      register: privsub3_out
 
 
 
