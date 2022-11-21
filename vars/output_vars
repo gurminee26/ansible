@@ -1,4 +1,4 @@
-vpcid: "{{vpcout.vpc.id}}"
+vpcid: vpc-0b0144b16684fc86c
 pubsub1id: subnet-053ee9aa97568c68c
 pubsub2id: 	subnet-04e54e3b3634f5f37
 pubsub3id: subnet-0569cb89c2b87b1b7
