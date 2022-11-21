@@ -81,7 +81,7 @@
         map_public: yes
         resource_tags:
           Name: vprofile-privsub1
-      register: privsub1_out
+      register: prisub1_out
 
 
     - name: create Private Subnet 2 in Zone2
@@ -94,7 +94,7 @@
         map_public: yes
         resource_tags:
           Name: vprofile-privsub2
-      register: privsub2_out
+      register: prisub2_out
 
 
     - name: create Private Subnet 3 in Zone3
@@ -107,7 +107,7 @@
         map_public: yes
         resource_tags:
           Name: vprofile-privsub3
-      register: privsub3_out
+      register: prisub3_out
 
 
 
