@@ -27,7 +27,7 @@
 
 
     - name: Create Sec Grp for bastion host
-      ec2_gropu:
+      ec2_group:
         name: Bastion-host-sg
         description: Allow port 22 from everywhere and all prot within sg.
         region: "{{region}}"
