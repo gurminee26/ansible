@@ -5,10 +5,10 @@
   gather_facts: no
   tasks:
     - name: VPC setup Variable
-      inclue_vars: vars/vpc-output_vars
+      include_vars: vars/vpc-output_vars
 
     - name: Import vprofile setup Variable
-      inclue_vars: vars/vprostacksetup
+      include_vars: vars/vprostacksetup
 
 
     - name: Create vprofile ec2 key
