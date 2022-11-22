@@ -145,7 +145,7 @@
         key_name: vprokey
         region: "{{region}}"
         instance_type: t2.micro
-        image: "{{rmq01_ami}}"
+        image: "{{rmq_ami}}"
         wait: yes
         wait_timeout: 300
         instance_tags:
@@ -167,7 +167,7 @@
         key_name: vprokey
         region: "{{region}}"
         instance_type: t2.micro
-        image: "{{db01_ami}}"
+        image: "{{mysql_ami}}"
         wait: yes
         wait_timeout: 300
         instance_tags:
