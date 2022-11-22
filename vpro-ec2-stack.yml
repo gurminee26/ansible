@@ -101,7 +101,7 @@
         region: "{{region}}"
         instance_type: t2.micro
         image: "{{tomcat_ami}}"
-        wait:: yes
+        wait: yes
         wait_timeout: 300
         instance_tags:
           Name: "app01"
@@ -124,7 +124,7 @@
         region: "{{region}}"
         instance_type: t2.micro
         image: "{{memcache_ami}}"
-        wait:: yes
+        wait: yes
         wait_timeout: 300
         instance_tags:
           Name: "mc01"
@@ -146,7 +146,7 @@
         region: "{{region}}"
         instance_type: t2.micro
         image: "{{rmq01_ami}}"
-        wait:: yes
+        wait: yes
         wait_timeout: 300
         instance_tags:
           Name: "rmq01"
@@ -168,7 +168,7 @@
         region: "{{region}}"
         instance_type: t2.micro
         image: "{{db01_ami}}"
-        wait:: yes
+        wait: yes
         wait_timeout: 300
         instance_tags:
           Name: "db01"
