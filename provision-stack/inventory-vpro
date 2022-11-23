@@ -1,9 +1,9 @@
 # BEGIN ANSIBLE MANAGED BLOCK
-web01_ip: 172.20.4.168
-app01_ip: 172.20.4.209
-rmq01_ip: 172.20.4.242
-mc01_ip:  172.20.4.27
-db01_ip:  172.20.4.223
+web01_ip: 172.20.4.188
+app01_ip: 172.20.4.134
+rmq01_ip: 172.20.4.141
+mc01_ip: 172.20.4.236
+db01_ip: 172.20.4.59
 # END ANSIBLE MANAGED BLOCK
 
 [websrvgrp]
